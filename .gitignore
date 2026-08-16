@@ -1,0 +1,29 @@
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+
+# Java / Maven
+**/target/
+*.class
+
+# Node / Vue
+**/node_modules/
+**/dist/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+
+# Logs and temporary files
+*.log
+~$*.docx
+.tools/
+.DS_Store
+Thumbs.db
