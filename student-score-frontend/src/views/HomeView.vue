@@ -20,6 +20,7 @@
     <div class="nav-links">
       <router-link to="/students">学生管理</router-link>
       <router-link to="/subjects">学科配置</router-link>
+      <router-link to="/exam-types">考试类型配置</router-link>
     </div>
   </div>
 </template>
