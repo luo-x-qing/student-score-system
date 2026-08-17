@@ -21,6 +21,11 @@ const routes = [
     path: '/exam-types',
     name: 'examTypes',
     component: () => import('../views/ExamTypeView.vue')
+  },
+  {
+    path: '/score-entry',
+    name: 'scoreEntry',
+    component: () => import('../views/ScoreEntryView.vue')
   }
 ]
 
