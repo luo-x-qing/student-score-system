@@ -26,6 +26,11 @@ const routes = [
     path: '/score-entry',
     name: 'scoreEntry',
     component: () => import('../views/ScoreEntryView.vue')
+  },
+  {
+    path: '/ranking',
+    name: 'ranking',
+    component: () => import('../views/RankingView.vue')
   }
 ]
 

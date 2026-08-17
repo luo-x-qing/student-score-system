@@ -13,6 +13,7 @@
         <router-link to="/subjects">学科配置</router-link>
         <router-link to="/exam-types">考试类型配置</router-link>
         <router-link to="/score-entry">成绩录入</router-link>
+        <router-link to="/ranking">成绩排名</router-link>
       </div>
     </nav>
     <main class="main-content">
